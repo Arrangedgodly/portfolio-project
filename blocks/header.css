@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .header {
-    background-color: rgb(40, 40, 40);
+    background-color: #154145;
     color: white;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -28,8 +28,8 @@
 .header__link:hover {
     transition: color 1s ease-in-out;
     transition: text-shadow 1s ease-in-out;
-    color: rgb(180, 155, 248);
-    text-shadow: 0px 0px 5px rgb(60, 0, 225);
+    color: #02707A;
+    text-shadow: 0px 0px 5px #0A181A;
 }
 
 /* .nav {
