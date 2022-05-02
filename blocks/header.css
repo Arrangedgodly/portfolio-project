@@ -18,6 +18,7 @@
 
 .header__title {
     margin: auto;
+    text-shadow: 0px 0px 3px #0A181A;
 }
 
 .header__link {
@@ -26,10 +27,8 @@
 }
 
 .header__link:hover {
-    transition: color 1s ease-in-out;
-    transition: text-shadow 1s ease-in-out;
     color: #02707A;
-    text-shadow: 0px 0px 5px #0A181A;
+    text-shadow: 0px 0px 3px #0A181A;
 }
 
 /* .nav {

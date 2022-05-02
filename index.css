@@ -14,6 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.intro__text {
+  font-style: italic;
 }
 
 .project {
@@ -22,6 +28,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.project_cat_title {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .project__cards {
@@ -44,12 +55,15 @@ body {
 
 .project__card_title {
   font-weight: bolder;
+  text-shadow: 1px 1px 1px #94B2B5;
 }
 
 .project__card_text {
   display: none;
   opacity: 0;
   color: #fff;
+  text-shadow: 1px 1px 1px #94B2B5;
+  font-style: italic;
 }
 
 .project__card:hover .project__card_title {
