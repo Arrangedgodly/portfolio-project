@@ -16,10 +16,20 @@ body {
   align-items: center;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
+  font-size: 1.5vw;
+  scroll-margin-top: 15vh;
 }
 
 .intro__text {
   font-style: italic;
+  font-size: 1.25vw;
+  color: #fff;
+  width: 80%;
+}
+
+.practicum-projects,
+.fcc-projects {
+  scroll-margin-top: 15vh;
 }
 
 .project {
@@ -33,6 +43,13 @@ body {
 .project_cat_title {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
+  font-size: 2.5vw;
+}
+
+.project_cat_subtitle {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2vw;
 }
 
 .project__cards {
@@ -40,6 +57,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   column-gap: .5vw;
+  margin: 5vh 0 5vh 0;
 }
 
 .project__card {
@@ -50,12 +68,14 @@ body {
   border-style: solid;
   width: 15vw;
   height: 15vw;
+  margin: .5vw;
   background-color: #fff;
 }
 
 .project__card_title {
   font-weight: bolder;
   text-shadow: 1px 1px 1px #94B2B5;
+  font-size: 1.5vw;
 }
 
 .project__card_text {
@@ -64,6 +84,9 @@ body {
   color: #fff;
   text-shadow: 1px 1px 1px #94B2B5;
   font-style: italic;
+  font-size: .85vw;
+  width: 80%;
+  padding-bottom: 3vh;
 }
 
 .project__card:hover .project__card_title {
@@ -86,9 +109,11 @@ body {
   border-color: #84EBF5;
   box-shadow: 1px 1px 8px #000;
   background-color: #02707A;
+  transform: scale(1.1);
   transition: border-color 0.6s ease-in-out;
   transition: box-shadow 0.6s ease-in-out;
   transition: background-color 0.6s ease-in-out;
+  transition: transform 0.6s linear;
 }
 
 .project__card__link {

@@ -19,11 +19,13 @@
 .header__title {
     margin: auto;
     text-shadow: 0px 0px 3px #0A181A;
+    font-size: 3vw;
 }
 
 .header__link {
     text-decoration: none;
     color: white;
+    font-size: 1.5vw;
 }
 
 .header__link:hover {
