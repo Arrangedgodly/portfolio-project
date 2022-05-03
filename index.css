@@ -24,7 +24,7 @@ body {
   font-style: italic;
   font-size: 1.25vw;
   color: #fff;
-  width: 80%;
+  width: 90%;
 }
 
 .practicum-projects,
@@ -52,12 +52,38 @@ body {
   font-size: 2vw;
 }
 
+.project_cat_desc {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1.35vw;
+  font-style: italic;
+  width: 72.5%;
+}
+
+.project_cat_subdesc {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1.25vw;
+  font-style: italic;
+  width: 50%;
+  margin: 2vh 0 2vh 0;
+}
+
+.project_cat_link {
+  color: #84EBF5;
+  text-decoration: none;
+}
+
+.project_cat_link:hover {
+  color: #02707A;
+}
+
 .project__cards {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   column-gap: .5vw;
-  margin: 5vh 0 5vh 0;
+  margin: 3vh 0 3vh 0;
 }
 
 .project__card {
@@ -119,4 +145,9 @@ body {
 .project__card__link {
   text-decoration: none;
   color: black;
+}
+
+.project_cat_subtitle,
+.project_cat_title {
+  margin: 2.75vh 0 2.75vh 0;
 }
