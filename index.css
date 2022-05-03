@@ -14,17 +14,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-margin-top: 15vh;
+}
+
+.intro__title {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
-  font-size: 1.5vw;
-  scroll-margin-top: 15vh;
+  font-size: 2.7vw;
+  margin: 2vh 0 2vh;
 }
 
 .intro__text {
   font-style: italic;
-  font-size: 1.25vw;
+  font-size: 2.25vw;
   color: #fff;
-  width: 90%;
+  text-shadow: 1px 1px 1px #000;
+  width: 80%;
+  margin: 1vh 0 3vh;
 }
 
 .practicum-projects,
@@ -43,7 +49,7 @@ body {
 .project_cat_title {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 .project_cat_subtitle {
@@ -55,7 +61,7 @@ body {
 .project_cat_desc {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
-  font-size: 1.35vw;
+  font-size: 1.55vw;
   font-style: italic;
   width: 72.5%;
 }
@@ -63,7 +69,7 @@ body {
 .project_cat_subdesc {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
-  font-size: 1.25vw;
+  font-size: 1.45vw;
   font-style: italic;
   width: 50%;
   margin: 2vh 0 2vh 0;
