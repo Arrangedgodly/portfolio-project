@@ -10,6 +10,11 @@ body {
  padding: 0;
 }
 
+main {
+  min-height: 70vh;
+  margin: auto;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -88,8 +93,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  column-gap: .5vw;
-  margin: 3vh 0 3vh 0;
+  column-gap: .75vw;
+  margin: 3vh 0 6vh 0;
 }
 
 .project__card {
@@ -141,7 +146,7 @@ body {
   border-color: #84EBF5;
   box-shadow: 1px 1px 8px #000;
   background-color: #02707A;
-  transform: scale(1.1);
+  transform: scale(1.15);
   transition: border-color 0.6s ease-in-out;
   transition: box-shadow 0.6s ease-in-out;
   transition: background-color 0.6s ease-in-out;
