@@ -47,19 +47,3 @@
     margin: 0 0 1.5vh;
     padding: 0;
 }
-
-.header__logo {
-    position: absolute;
-    height: 12vh;
-    width: 12vh;
-    top: 2vh;
-    left: 2vh;
-}
-
-.header__logo_alt {
-    position: absolute;
-    height: 12vh;
-    width: 12vh;
-    top: 2vh;
-    right: 2vh;
-}
