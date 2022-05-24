@@ -2,6 +2,7 @@
 @import url("./blocks/header.css");
 @import url("about.css");
 
+@media (max-width: 3000px) {
 body {
  margin: 15vh 0 0 0;
  font-family: 'Montserrat', sans-serif;
@@ -161,4 +162,59 @@ main {
 .project_cat_subtitle,
 .project_cat_title {
   margin: 2.75vh 0 2.75vh 0;
+}
+}
+
+@media (max-width: 720px) {
+  body {
+    margin: 0 0 0 20vw;
+  }
+
+  .intro__title {
+    font-size: 8vw;
+    width: 70vw;
+  }
+
+  .intro__text {
+    font-size: 4.75vw;
+    width: 60vw;
+  }
+
+  .project_cat_title {
+    font-size: 8vw;
+    width: 75vw;
+  }
+
+  .project_cat_subtitle {
+    font-size: 7vw;
+    width: 50vw;
+  }
+
+  .project_cat_desc {
+    font-size: 4vw;
+  }
+
+  .project_cat_subdesc {
+    font-size: 4vw;
+  }
+
+  .project__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .project__card {
+    width: 35vw;
+    height: 35vw;
+    margin: 5vw;
+  }
+
+  .project__card_title {
+    font-size: 3vw;
+  }
+
+  .project__card_text {
+    font-size: 2vw;
+  }
 }
