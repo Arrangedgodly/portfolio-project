@@ -32,21 +32,6 @@
     color: #02707A;
     text-shadow: 0px 0px 3px #0A181A;
 }
-
-.nav {
-   width: 80%;
-   margin: auto; 
-}
-
-.nav__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-    text-decoration: none;
-    margin: 0 0 1.5vh;
-    padding: 0;
-}
 }
 
 @media (max-width: 720px) {
@@ -65,19 +50,5 @@
 
     .header__link {
         font-size: .725rem;
-    }
-
-    .nav {
-        margin: auto;
-    }
-
-    .nav__list {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        max-width: 12vw;
-        height: 50vh;
-        margin: auto;
     }
 }

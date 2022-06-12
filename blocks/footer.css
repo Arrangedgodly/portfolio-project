@@ -16,12 +16,12 @@
 }
 
 .footer__header {
-    margin-top: auto;
+    margin: auto;
     font-size: 2vw;
 }
 
 .footer__link {
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
     text-decoration: none;
     font-style: normal;
     color: white;

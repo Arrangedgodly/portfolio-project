@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    width: 15vw;
+    height: 15vw;
+    margin: .5vw;
+    background-color: #fff;
+  }
+  
+  .card_title {
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #94B2B5;
+    font-size: 1.5vw;
+  }
+  
+  .card_text {
+    display: none;
+    opacity: 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #94B2B5;
+    font-style: italic;
+    font-size: .85vw;
+    width: 80%;
+    padding-bottom: 3vh;
+  }
+  
+  .card:hover .card_title {
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+    transition: color 0.6s ease-in-out;
+    transition: text-shadow 0.6s ease-in-out;
+  }
+  
+  .card:hover .card_text {
+    display: block;
+    opacity: 1;
+    text-shadow: 1px 1px 5px #000;
+    transition: display 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+    transition: text-shadow 0.6s ease-in-out;
+  }
+  
+  .card:hover {
+    border-color: #84EBF5;
+    box-shadow: 1px 1px 8px #000;
+    background-color: #02707A;
+    transform: scale(1.15);
+    transition: border-color 0.6s ease-in-out;
+    transition: box-shadow 0.6s ease-in-out;
+    transition: background-color 0.6s ease-in-out;
+    transition: transform 0.6s linear;
+  }
+  
+  .card__link {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (max-width: 720px) {
+    .card {
+        width: 35vw;
+        height: 35vw;
+        margin: 5vw;
+      }
+    
+      .card_title {
+        font-size: 3vw;
+      }
+    
+      .card_text {
+        font-size: 2vw;
+      }
+  }
