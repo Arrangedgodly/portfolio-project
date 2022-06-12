@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
     border-style: solid;
-    width: 15vw;
-    height: 15vw;
-    margin: .5vw;
+    width: 200px;
+    height: 200px;
+    margin: .5vw auto .5vw auto;
     background-color: #fff;
   }
   
