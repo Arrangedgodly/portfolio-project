@@ -1,4 +1,11 @@
-.icon_type_git {
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.5vw;
+}
+
+.icon {
     width: 50px;
     height: 50px;
 }

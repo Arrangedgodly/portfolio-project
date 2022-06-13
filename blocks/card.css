@@ -8,12 +8,20 @@
     height: 200px;
     margin: .5vw auto .5vw auto;
     background-color: #fff;
+    transition: border-color 0.6s ease-in-out;
+    transition: box-shadow 0.6s ease-in-out;
+    transition: background-color 0.6s ease-in-out;
+    transition: scale 0.6s ease-in-out;
+    transition: transform 0.6s linear;
   }
   
   .card_title {
     font-weight: bolder;
     text-shadow: 1px 1px 1px #94B2B5;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    margin: auto;
+    transition: color 0.6s ease-in-out;
+    transition: text-shadow 0.6s ease-in-out;
   }
   
   .card_text {
@@ -22,25 +30,24 @@
     color: #fff;
     text-shadow: 1px 1px 1px #94B2B5;
     font-style: italic;
-    font-size: .85vw;
+    font-size: .65vw;
     width: 80%;
+    margin: auto auto 0 auto;
     padding-bottom: 3vh;
+    transition: display 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+    transition: text-shadow 0.6s ease-in-out;
   }
   
   .card:hover .card_title {
     color: white;
     text-shadow: 1px 1px 5px #000;
-    transition: color 0.6s ease-in-out;
-    transition: text-shadow 0.6s ease-in-out;
   }
   
   .card:hover .card_text {
     display: block;
     opacity: 1;
     text-shadow: 1px 1px 5px #000;
-    transition: display 0.6s ease-in-out;
-    transition: opacity 0.6s ease-in-out;
-    transition: text-shadow 0.6s ease-in-out;
   }
   
   .card:hover {
@@ -48,10 +55,7 @@
     box-shadow: 1px 1px 8px #000;
     background-color: #02707A;
     transform: scale(1.15);
-    transition: border-color 0.6s ease-in-out;
-    transition: box-shadow 0.6s ease-in-out;
-    transition: background-color 0.6s ease-in-out;
-    transition: transform 0.6s linear;
+    justify-content: space-around;
   }
   
   .card__link {
