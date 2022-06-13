@@ -32,8 +32,8 @@
     font-style: italic;
     font-size: .65vw;
     width: 80%;
-    margin: auto auto 0 auto;
-    padding-bottom: 3vh;
+    margin: auto;
+    padding-bottom: 1vh;
     transition: display 0.6s ease-in-out;
     transition: opacity 0.6s ease-in-out;
     transition: text-shadow 0.6s ease-in-out;
