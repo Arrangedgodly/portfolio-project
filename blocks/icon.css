@@ -10,6 +10,10 @@
     height: 50px;
 }
 
+.icon_large {
+    width: 100px;
+}
+
 @media (max-width: 720px) {
     .icons_margin {
         margin-bottom: 10vh;
