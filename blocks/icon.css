@@ -3,8 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 2.5vw;
-    row-gap: 2.5vh;
+    column-gap: 3.5vw;
+    row-gap: 3.5vh;
 }
 
 .icon {
@@ -12,8 +12,17 @@
     height: 50px;
 }
 
+.icon_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
 .icon_hover {
-    transition: scale 1.0s ease-in-out;
+    transition: scale 1s ease-in-out;
 }
 
 .icon_hover:hover {
@@ -25,7 +34,26 @@
     height: 100px;
 }
 
+.icon__text {
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #94B2B5;
+    font-weight: 900;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    max-width: 100px;
+}
+
+.icon_wrapper:hover > .icon__text {
+    opacity: 1;
+}
+
 @media (max-width: 720px) {
+    .icons {
+        column-gap: 2.5vw;
+        row-gap: 2.5vh;
+    }
+
     .icons_margin {
         margin-bottom: 10vh;
     }
