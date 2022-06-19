@@ -1,0 +1,24 @@
+.resume {
+    background-color: #370617;
+}
+
+.resume__header {
+    background-color: #03071E;
+}
+
+.resume__footer {
+    background-color: #03071E;
+}
+
+.resume__text {
+    color: #DC2F02;
+}
+
+.resume__text_alt {
+    color: #F48C06;
+}
+
+.resume__card {
+    background-color: #FFBA08;
+    color: #03071E;
+}
